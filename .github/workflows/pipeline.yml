@@ -26,7 +26,7 @@ jobs:
     - name: Display SoftUni username
       run: echo "NMKrastev"
 
-ui-test:
+  ui-test:
 
     needs: build-and-test
     runs-on: ubuntu-latest
